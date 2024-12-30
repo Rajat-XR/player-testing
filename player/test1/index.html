@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+    <h1>RAJAT PLAYER</h1>
+    </div>
+    <div class="player-container">
+        <video id="video-player" class="video-player">
+            <source id="video-source" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="controls">
+            <input type="file" id="video-upload"/>
+            <div>
+            <button id="Pausebtn">Pause</button> (Space to Pause/Play)
+           </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
